@@ -17,6 +17,7 @@
 		663739242A3DE0F2003179D0 /* TodoAppEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663739232A3DE0F2003179D0 /* TodoAppEndToEndTests.swift */; };
 		663739262A3DE0F2003179D0 /* TodoAppEndToEndTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663739252A3DE0F2003179D0 /* TodoAppEndToEndTestsLaunchTests.swift */; };
 		663739312A3DE277003179D0 /* ToDoAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6637392F2A3DE277003179D0 /* ToDoAppModel.xcdatamodeld */; };
+		663739362A3E0FD7003179D0 /* Springboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663739352A3E0FD7003179D0 /* Springboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		663739232A3DE0F2003179D0 /* TodoAppEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppEndToEndTests.swift; sourceTree = "<group>"; };
 		663739252A3DE0F2003179D0 /* TodoAppEndToEndTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppEndToEndTestsLaunchTests.swift; sourceTree = "<group>"; };
 		663739302A3DE277003179D0 /* ToDoAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoAppModel.xcdatamodel; sourceTree = "<group>"; };
+		663739352A3E0FD7003179D0 /* Springboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Springboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,8 @@
 		663739042A3DDF95003179D0 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				663739142A3DE00D003179D0 /* Extensions */,
 				663739052A3DDF95003179D0 /* ToDoApp.swift */,
+				663739142A3DE00D003179D0 /* Extensions */,
 				663739132A3DDFC2003179D0 /* Managers */,
 				663739072A3DDF95003179D0 /* ContentView.swift */,
 				6637391B2A3DE0BD003179D0 /* TaskDetailView.swift */,
@@ -122,10 +124,19 @@
 		663739222A3DE0F2003179D0 /* TodoAppEndToEndTests */ = {
 			isa = PBXGroup;
 			children = (
+				663739342A3E0FCA003179D0 /* Utils */,
 				663739232A3DE0F2003179D0 /* TodoAppEndToEndTests.swift */,
 				663739252A3DE0F2003179D0 /* TodoAppEndToEndTestsLaunchTests.swift */,
 			);
 			path = TodoAppEndToEndTests;
+			sourceTree = "<group>";
+		};
+		663739342A3E0FCA003179D0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				663739352A3E0FD7003179D0 /* Springboard.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 			files = (
 				663739242A3DE0F2003179D0 /* TodoAppEndToEndTests.swift in Sources */,
 				663739262A3DE0F2003179D0 /* TodoAppEndToEndTestsLaunchTests.swift in Sources */,
+				663739362A3E0FD7003179D0 /* Springboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +449,7 @@
 				DEVELOPMENT_TEAM = 28BW499ZN4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.krystiangrabowy.TodoAppEndToEndTests;
+				PRODUCT_BUNDLE_IDENTIFIER = krys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -454,7 +466,7 @@
 				DEVELOPMENT_TEAM = 28BW499ZN4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.krystiangrabowy.TodoAppEndToEndTests;
+				PRODUCT_BUNDLE_IDENTIFIER = krys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
